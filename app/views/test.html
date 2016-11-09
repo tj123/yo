@@ -1,0 +1,24 @@
+<div ng-controler="TestCtrl" class="jumbotron">
+  <h1>这是一个测试页面</h1>
+  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
+</div>
+
+<div class="row marketing">
+  <h4 > {{ hehe }}HTML5 Boilerplate</h4>
+  <p>
+    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
+  </p>
+
+  <h4 ng-module="awesomeThings">{{'hello'}}Angular</h4>
+  <p ng-init="count=0"> 
+    {{ test }}:{{count}}
+  </p >
+
+  <input ng-blur="alert(1)" type="text" ng-model="test" ng-click="run('this')"/>
+  <h4>Karma</h4>
+  <p>Spectacular Test Runner for JavaScript.</p>
+</div>
